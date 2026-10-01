@@ -422,5 +422,6 @@ PopupWindow {
 
     function closeStartMenu() {
         closeAnimation.start();
+        Config.currentPopup = Config.SystemPopup.None;
     }
 }
